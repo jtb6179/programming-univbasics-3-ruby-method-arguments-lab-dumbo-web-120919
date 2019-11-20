@@ -6,7 +6,14 @@ def introduction(name)
   puts "Hi, my name is #{name}"
 end
 
-def introduction_with_language
+def introduction_with_language(name, language)
+  puts "Hi, my name is #{name} and I love #{language}."
+end
+
+def introduction_with_language_optional(name, language, optional)
+  puts "Hi, My name is #{name} and I love #{language}. however, I dislike #{optional}."
+
+introduction("chika chika slim shady")
 
 
 
